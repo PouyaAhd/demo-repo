@@ -44,6 +44,7 @@ textarea:focus {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 
 .note-footer {
@@ -74,4 +75,19 @@ textarea:focus {
 
 .search input:focus {
   outline: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+  align-items: center;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode h1 {
+  color: white;
 }
